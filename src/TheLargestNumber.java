@@ -2,7 +2,6 @@ import java.util.*;
 import java.lang.*;
 
 public class TheLargestNumber {
-
     public static void main(String[] args) {
         TheLargestNumber theLargestNumber = new TheLargestNumber();
         int[] numbers = {6, 10, 2};
