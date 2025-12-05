@@ -1,5 +1,4 @@
-import java.util.*;
-import java.lang.*;
+import java.util.Arrays;
 
 public class TheLargestNumber {
     public static void main(String[] args) {
