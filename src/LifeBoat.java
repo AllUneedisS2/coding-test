@@ -16,7 +16,6 @@ public class LifeBoat {
         // 1. 사람들을 몸무게 기준으로 정렬
         Arrays.sort(people, Comparator.reverseOrder());
         
-
         return 0;
     }
     
