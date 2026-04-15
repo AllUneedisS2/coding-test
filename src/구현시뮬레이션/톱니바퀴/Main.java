@@ -95,7 +95,7 @@ public class Main {
             // 반시계
             else {
                 int first = gear[i][0];
-                for (int j = 0 ; j < 6 ; j++) {
+                for (int j = 0 ; j < 7 ; j++) {
                     gear[i][j] = gear[i][j+1];
                 }
                 gear[i][7] = first;
