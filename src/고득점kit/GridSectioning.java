@@ -1,3 +1,4 @@
+package 고득점kit;
 import java.util.*;
 
 public class GridSectioning {

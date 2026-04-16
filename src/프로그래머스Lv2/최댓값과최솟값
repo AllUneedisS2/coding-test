@@ -1,0 +1,17 @@
+import java.util.*;
+class Solution {
+    public String solution(String s) {
+
+        int[] nums = Arrays.stream(s.split(" "))
+                            .mapToInt(Integer::parseInt)
+                            .toArray();
+
+        return Arrays.stream(nums)
+                     .min()
+                     .getAsInt()
+               + " " +
+               Arrays.stream(nums)
+                     .max()
+                     .getAsInt();
+    }
+}

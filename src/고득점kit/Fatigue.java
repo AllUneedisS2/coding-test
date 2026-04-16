@@ -1,3 +1,4 @@
+package 고득점kit;
 public class Fatigue {
 
     private static int result = 0;
